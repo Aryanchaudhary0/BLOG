@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Blog Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Enhanced Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                 
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section id="posts">
+            <article>
+                <h2>Blog Post Title 1</h2>
+                <p>Discover insights and trends in the world of technology and programming.</p>
+                <button class="read-more">Read More</button>
+                <div class="overlay">
+                    <p>This is the extended content for Blog Post Title 1.</p>
+                    <button class="close">Close</button>
+                </div>
+            </article>
+        </section>
+        <button id="add-post">Add New Blog Post</button>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Enhanced Blog. All rights reserved.</p>
+    </footer>
+    
+     <script src="index.js"></script>
+</body>
+</html>
